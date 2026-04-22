@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.env
+venv/
+.venv/
+
+# Secrets — NEVER push these
+*credentials*.json
+*service-account*.json
+.gcloud/
+
+# ADK / Build artifacts
+.adk/
+*.log
+dist/
+build/
+
+# OS
+.DS_Store
